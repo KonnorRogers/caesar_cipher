@@ -17,7 +17,6 @@ class CaesarCipher
   end
 
   def encrypt(shift:, text:)
-    puts text
     good_args?(shift: shift, text: text)
 
     lower_cipher = make_lower_cipher(shift: shift)
